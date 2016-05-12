@@ -1,0 +1,154 @@
+body {
+	background-color: #EAEAEA;
+    overflow: hidden;
+}
+
+.pay_title {
+	margin-top: 15px; 
+}
+
+.pay_title span {
+	color: #037802;
+    font-weight: 500;
+}
+
+form {
+	background: white;
+    margin: 0 8px;
+    border-radius: 7px;
+    padding-bottom: 20px
+}
+
+form .comsume {
+    padding-top: 13px;
+    padding-bottom: 12px;
+    color: #454545;
+    border-bottom: 1px dashed #818181;
+}
+
+form .comsume span {
+	font-weight: 100;
+    color: #7A7A7A;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.money_symbol, .money_input {
+	font-size: 45px;
+}
+
+.weui_cell:before{
+	border: none !important;
+}
+
+
+.money_symbol {
+	font-size: 45px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+
+.weui_input {
+    color: #04BE02;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+    font-weight: 300;
+}
+
+
+.button {
+    width: 93% !important;
+    margin-top: 10px;
+    transition: ease-in-out 0.5s;
+}
+
+.footer {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 12px;
+    color: grey;
+}
+
+.weui_icon_info_circle:before {
+    font-size: 20px !important;
+    color: #7BAF7A !important;
+}
+
+.hidden {
+    visibility:hidden;
+}
+
+html {
+  height: 100%;
+}
+
+.loader {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  perspective: 800px;
+}
+
+.inner {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;  
+}
+
+.inner.one {
+  left: 0%;
+  top: 0%;
+  animation: rotate-one 1s linear infinite;
+  border-bottom: 3px solid #27333B;;
+}
+
+.inner.two {
+  right: 0%;
+  top: 0%;
+  animation: rotate-two 1s linear infinite;
+  border-right: 3px solid  #27333B;;
+}
+
+.inner.three {
+  right: 0%;
+  bottom: 0%;
+  animation: rotate-three 1s linear infinite;
+  border-top: 3px solid  #27333B;;
+}
+
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+

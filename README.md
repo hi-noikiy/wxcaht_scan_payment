@@ -2,7 +2,7 @@
 体验地址
 http://cornerpay.applinzi.com/money.php
 
-![扫码体验](image/1463015116.png =100)
+ <img src="image/1463015116.png" height = "200px" alt="扫码体验" align=center />
 
 ###快速搭建指南
 1. 安装配置nginx+phpfpm+php

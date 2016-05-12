@@ -10,6 +10,7 @@ http://paysdk.weixin.qq.com/
 ⑥、搭建完成
 
 ###SDK目录结构
+```
 .
 ├── README.md
 ├── WxPay.JsApiPay.php
@@ -35,7 +36,7 @@ http://paysdk.weixin.qq.com/
 │   └── WxPay.Notify.php
 ├── money.php
 └── notify.php
-
+```
 ### 目录功能简介
 #### lib (API接口封装代码)
 WxPay.Api.php 包括所有微信支付API接口的封装

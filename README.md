@@ -1,13 +1,15 @@
 ###SDK
 体验地址
-http://paysdk.weixin.qq.com/
+http://cornerpay.applinzi.com/money.php
+
+![扫码体验](image/1463015116.png)
 
 ###快速搭建指南
-①、安装配置nginx+phpfpm+php
-②、建SDK解压到网站根目录
-③、修改lib/WxPay.Config.php为自己申请的商户号的信息（配置详见说明）
-⑤、下载证书替换cert下的文件
-⑥、搭建完成
+1. 安装配置nginx+phpfpm+php
+2. 建SDK解压到网站根目录
+3. 修改lib/WxPay.Config.php为自己申请的商户号的信息（配置详见说明）
+4. 下载证书替换cert下的文件
+5. 搭建完成
 
 ###SDK目录结构
 ```
